@@ -1,0 +1,48 @@
+field,code,label,description
+record_type,observation,Observation,Measured values from surveys or reports
+record_type,event,Event,Policies product launches market entries milestones
+record_type,impact_link,Impact Link,Modeled relationships between events and indicators
+record_type,target,Target,Official policy goals
+pillar,access,Access,Account ownership and availability of financial services
+pillar,usage,Usage,Active use of digital payments and financial services
+category,policy,Policy,Government or regulatory policy change
+category,product_launch,Product Launch,New financial product or service launch
+category,infrastructure,Infrastructure,Physical or digital infrastructure investment
+category,market_entry,Market Entry,New operator or institution entering market
+category,milestone,Milestone,Significant observed behavioral or market milestone
+source_type,survey,Survey,Demand-side survey data (e.g. Findex)
+source_type,operator_report,Operator Report,Data from telecom or financial service operator
+source_type,regulatory_report,Regulatory Report,Central bank or government statistical report
+source_type,academic,Academic,Peer-reviewed research
+source_type,ngo_report,NGO Report,Reports from development organizations
+confidence,high,High,Primary source with direct measurement
+confidence,medium,Medium,Estimated or derived from secondary sources
+confidence,low,Low,Approximation or extrapolation
+impact_direction,positive,Positive,Event increases indicator value
+impact_direction,negative,Negative,Event decreases indicator value
+impact_direction,neutral,Neutral,No expected net effect
+impact_magnitude,large,Large,Effect greater than 5 percentage points
+impact_magnitude,medium,Medium,Effect between 2-5 percentage points
+impact_magnitude,small,Small,Effect less than 2 percentage points
+indicator_code,ACC_OWNERSHIP,Account Ownership Rate,Share of adults 15+ with any financial account
+indicator_code,ACC_OWNERSHIP_FEMALE,Female Account Ownership,Account ownership among women
+indicator_code,ACC_OWNERSHIP_MALE,Male Account Ownership,Account ownership among men
+indicator_code,ACC_OWNERSHIP_URBAN,Urban Account Ownership,Account ownership in urban areas
+indicator_code,ACC_OWNERSHIP_RURAL,Rural Account Ownership,Account ownership in rural areas
+indicator_code,ACC_MM_ACCOUNT,Mobile Money Account,Share of adults with mobile money account
+indicator_code,ACC_TELEBIRR_USERS,Telebirr Users,Registered Telebirr users in millions
+indicator_code,ACC_MPESA_USERS,M-Pesa Users,Registered M-Pesa Ethiopia users in millions
+indicator_code,USG_DIGITAL_PAYMENT,Digital Payment Adoption,Share of adults making/receiving digital payments
+indicator_code,USG_DIGITAL_PAYMENT_FEMALE,Female Digital Payment,Female digital payment adoption
+indicator_code,USG_DIGITAL_PAYMENT_MALE,Male Digital Payment,Male digital payment adoption
+indicator_code,USG_WAGES_DIGITAL,Digital Wage Receipt,Share receiving wages digitally
+indicator_code,USG_P2P_TRANSFER,P2P Transfer Value,Total P2P digital transfer value (ETB billions)
+indicator_code,USG_ATM_WITHDRAWAL,ATM Withdrawal Value,Total ATM withdrawal value (ETB billions)
+indicator_code,INFRA_MOBILE_PENETRATION,Mobile Penetration,SIM connections as share of population
+indicator_code,INFRA_4G_COVERAGE,4G Coverage,Share of population with 4G coverage
+indicator_code,INFRA_BANK_BRANCH,Bank Branch Density,Commercial bank branches per 100k adults
+indicator_code,INFRA_ATM_DENSITY,ATM Density,ATMs per 100k adults
+indicator_code,INFRA_AGENT_DENSITY,Agent Density,Mobile money agents per 100k adults
+indicator_code,TGT_ACC_OWNERSHIP_2025,Access Target 2025,NFIS-II interim account ownership target for 2025
+indicator_code,TGT_ACC_OWNERSHIP_2030,Access Target 2030,NFIS-II final account ownership target for 2030
+indicator_code,TGT_USG_DIGITAL_2030,Usage Target 2030,NFIS-II digital payment target for 2030
