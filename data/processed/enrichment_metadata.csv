@@ -1,0 +1,9 @@
+enrichment_version,field,source_url,confidence,evidence_basis,rationale
+v2026-07-20,observation_year,https://globalfindex.worldbank.org,high,source observation_date,Extracted year from observation_date for grouping and plotting.
+v2026-07-20,year_fraction,https://globalfindex.worldbank.org,high,source observation_date,Continuous year used for trend and event overlay charts.
+v2026-07-20,indicator_label,https://globalfindex.worldbank.org,high,internal mapping from indicator_code,Human-readable indicator names for notebooks and dashboard charts.
+v2026-07-20,confidence_score,https://globalfindex.worldbank.org,high,source confidence,Numeric score mapped from high/medium/low confidence.
+v2026-07-20,source_quality_score,https://globalfindex.worldbank.org,medium,source confidence and source_type,Confidence score multiplied by source-type weight.
+v2026-07-20,annualized_change,https://globalfindex.worldbank.org,medium,source value_numeric and observation_date,Per-year change from the previous observation for the same indicator.
+v2026-07-20,prior_24m_events,https://globalfindex.worldbank.org,medium,event records in unified dataset,Events occurring in the 24 months before each observation.
+v2026-07-20,value_share_of_target_70,https://globalfindex.worldbank.org,medium,NFIS-II target encoded in target records,Percent indicators expressed as progress toward the 70% 2030 access target.
